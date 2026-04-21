@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+Flask-JWT-Extended
+Werkzeug
+python-dotenv
+Pillow
+flask-cors
+pytest
+pytest-flask
