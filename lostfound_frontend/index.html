@@ -7,6 +7,21 @@
   <script type="module" src="/src/main.js"></script>
 </head>
 <body>
+  <h1>Lost & Found System</h1>
+
+<input type="text" id="item" placeholder="Enter item name">
+
+<button onclick="addPost()">Add Post</button>
+
+<p id="msg"></p>
+
+<script>
+  function addPost() {
+    let item = document.getElementById("item").value;
+    document.getElementById("msg").innerText =
+      "Added: " + item;
+  }
+</script>
   <div class="nav">
     <div>Lost & Found</div>
     <div>
