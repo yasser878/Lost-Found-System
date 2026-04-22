@@ -39,3 +39,7 @@ app = create_app()
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
+    # Backend by Habiba
+print("Backend is working")
+
+add backend feature
